@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <h1>Geeks For Geeks Survey Form</h1>
+    <form action="" method="get">
+        <div class="container">
+            <label for="name" id="label_name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="enter your name"><br>
+            <label for="email" id="label_email">Email: </label>
+            <input type="email" placeholder="enter your email">
+            <label for="age" id="label_age">Age: </label>
+            <input type="number" placeholder="enter your age">
+        </div>
+        <div class="container">
+            <label for="text" id="label_text"> Would you recommend GeeksforGeeks to your friend:</label>
+            <label for=""><input type="radio" name="recommend" id="recommend"> Yes</label>
+            <label for=""><input type="radio" name="recommend" id="recommend"> No</label>
+            <label for=""><input type="radio" name="recommend" id="recommend"> Maybe</label>
+        </div>
+        <div class="container">Languages and FrameWorks Known: <small>(consider all apply)</small>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> Java</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> Python</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> C</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> C++</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> SQL</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> Javascript</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> Go</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> Rust</label>
+            <label for=""><input type="checkbox" name="select" id="checkbox"> Swift</label>
+        </div>
+        <div class="container">
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="enter comment"></textarea>
+        </div>
+
+        <input type="submit" name="submit" id="submit">
+
+
+    </form>
+</body>
+
+</html>

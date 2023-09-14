@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="payment1.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1 class="mainheading">Payment Form</h1> 
+            <h2 class="main">User Details</h2>
+            <hr>
+            <p>Name : <input type="text" name="name" id="name" required>
+            </p>
+            <p>Phone Number: <input type="number" name="Phone" id="Phone" required>
+            </p>
+            <p>
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender" id="male" required>Male
+                <input type="radio" name="gender" id="female">Female
+            </fieldset>
+            </p>
+            <p>Address:
+                <textarea name="address" id="address" cols="100" rows="5" required></textarea>
+            </p>
+            <p>Email : <input type="email" name="email" id="email" required></p>
+            <p>Pincode : <input type="number" name="pincode" id="pincode" required>
+            </p>
+            <h2 class="mainheading">Payment Details</h2>
+            <hr>
+            <p>Card Type: <select name="card" id="card" required>
+                    <option value="">Select Card Type</option>
+                    <option value="visa">Visa</option>
+                    <option value="master">Master</option>
+                    <option value="rupay">Rupay</option>
+                </select><br></p>
+            <p>Card Number: <input type="number" name="card_number" id="card_number" required>
+            </p>
+            <p>CVV : <input type="password" name="cvv" id="cvv" required>
+            </p>
+            <p>Expiration Date: <input type="month" name="exp_month" id="exp_month" required>
+            </p>
+            <p><input type="submit" value="Paynow" id="submit"> <input type="reset" value="reset" id="reset"></p>
+
+        </form>
+    </div>
+</body>
+
+</html>

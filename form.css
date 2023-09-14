@@ -1,0 +1,57 @@
+body{
+    /* margin: 0; */
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+label{
+    padding: 7px;
+    margin: 10px 0px 10px 0px;
+}
+
+h1{
+    padding: 15px;
+}
+form{
+    padding: 30px 20px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 2px 5px 10px rgb(0, 0, 0,0.5);
+
+}
+.container{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.container label{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],textarea{
+    width: 95%;
+    font-size: 17px;
+    padding: 14px;
+    border-radius: 4px;
+    border: 1px solid #777;
+    display: block;
+}
+.container input[type="radio"],input[type="checkbox"]{
+    display: inline-block;
+    width: auto;
+}
+input[type="submit"]{
+    
+    background-color:green;
+    color: #fff;
+    border-radius:4px;
+    width: 25%;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+
